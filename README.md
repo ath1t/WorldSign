@@ -18,15 +18,10 @@ python3 -m http.server 8000
 ```
 Open `http://localhost:8000`.
 
-## Deploy to Vercel
+## Deploy
 1. Push this repository to GitHub, with the default branch named `main`.
-2. In Vercel, choose **Add New → Project** and import the repository.
-3. Set **Framework Preset** to **Other**.
-4. Set **Root Directory** to `.` (repository root).
-5. Leave **Build Command** empty; set **Output Directory** to `.`.
-6. Deploy. Vercel will create Preview Deployments for branches/PRs and Production Deployments from `main`.
-
-The repository includes `vercel.json` for clean URLs and basic response headers. GitHub Actions runs data validation; Vercel handles hosting and deployment.
+2. Open **Settings → Pages** and choose **GitHub Actions**.
+3. Push to `main`; the workflow validates the data and deploys the site.
 
 ## Add a sign
 Add an entry to `data/signs/index.json` using `data/sign-template.json` as a starting point. Do not mark an entry `approved` until the language community review, source checks, media rights and signer consent are documented.
