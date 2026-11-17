@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contribute — WorldSign</title><link rel="stylesheet" href="../assets/css/style.css"><script defer src="form.js"></script></head><body><main class="page-shell"><a href="../">← WorldSign</a><h1>Contribute a sign</h1><p class="notice">Submissions are downloaded as JSON for a maintainer to review. This form does not publish content or upload media.</p><form id="entry-form" class="panel"><div class="form-grid">
+<div class="field"><label for="id">Entry ID</label><input id="id" required placeholder="ysm-hello-001"></div>
+<div class="field"><label for="language">Sign language</label><select id="language" required><option value="ysm">Yangon Sign Language</option><option value="mandalay-sl">Mandalay Sign Language</option><option value="ase">ASL</option><option value="bfi">BSL</option></select></div>
+<div class="field"><label for="gloss">Gloss / label</label><input id="gloss" required></div>
+<div class="field"><label for="category">Category</label><select id="category"><option>greetings</option><option>numbers</option><option>family</option><option>daily-life</option><option>education</option><option>emergency</option><option>food</option><option>time</option></select></div>
+<div class="field full"><label for="meaning">Meaning and usage notes</label><textarea id="meaning" required></textarea></div>
+<div class="field"><label for="region">Region / variant</label><input id="region" placeholder="e.g. Yangon"></div>
+<div class="field"><label for="source">Source URL</label><input id="source" type="url"></div>
+<div class="field"><label for="media">Approved media URL (optional)</label><input id="media" type="url"></div>
+<div class="field"><label for="license">Media licence / permission</label><input id="license" placeholder="Exact licence or permission record"></div>
+<div class="field full"><label class="checkline"><input id="consent" type="checkbox" required> I confirm documented permission exists to submit this media and metadata for the stated use.</label></div>
+</div><p><button class="button" type="submit">Generate submission JSON</button></p></form><section class="panel" id="output-panel" hidden><h2>Submission JSON</h2><pre id="output" style="white-space:pre-wrap;overflow-wrap:anywhere"></pre><button class="button secondary" id="download" type="button">Download JSON</button></section></main></body></html>

@@ -1,0 +1,69 @@
+{
+  "languages": [
+    {
+      "id": "ysm",
+      "name": "Yangon Sign Language",
+      "region": "Yangon, Myanmar",
+      "family": "Sign language",
+      "priority": true,
+      "status": "Research required"
+    },
+    {
+      "id": "mandalay-sl",
+      "name": "Mandalay Sign Language",
+      "region": "Mandalay, Myanmar",
+      "family": "Sign language",
+      "priority": true,
+      "status": "Research required"
+    },
+    {
+      "id": "ase",
+      "name": "American Sign Language",
+      "region": "United States and parts of Canada",
+      "family": "French Sign Language family",
+      "status": "Directory entry"
+    },
+    {
+      "id": "bfi",
+      "name": "British Sign Language",
+      "region": "United Kingdom",
+      "family": "British Sign Language family",
+      "status": "Directory entry"
+    },
+    {
+      "id": "jsl",
+      "name": "Japanese Sign Language",
+      "region": "Japan",
+      "family": "Japanese Sign Language family",
+      "status": "Directory entry"
+    },
+    {
+      "id": "gsg",
+      "name": "German Sign Language",
+      "region": "Germany",
+      "family": "German Sign Language family",
+      "status": "Directory entry"
+    },
+    {
+      "id": "ins",
+      "name": "Indian Sign Language",
+      "region": "India",
+      "family": "Indian Sign Language family",
+      "status": "Directory entry"
+    },
+    {
+      "id": "csl",
+      "name": "Chinese Sign Language",
+      "region": "China",
+      "family": "Chinese Sign Language family",
+      "status": "Directory entry"
+    },
+    {
+      "id": "bzs",
+      "name": "Brazilian Sign Language",
+      "region": "Brazil",
+      "family": "French Sign Language family",
+      "status": "Directory entry"
+    }
+  ]
+}

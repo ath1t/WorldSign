@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": "greetings",
+      "label": "Greetings"
+    },
+    {
+      "id": "numbers",
+      "label": "Numbers"
+    },
+    {
+      "id": "family",
+      "label": "Family"
+    },
+    {
+      "id": "daily-life",
+      "label": "Daily life"
+    },
+    {
+      "id": "education",
+      "label": "Education"
+    },
+    {
+      "id": "emergency",
+      "label": "Emergency"
+    },
+    {
+      "id": "food",
+      "label": "Food"
+    },
+    {
+      "id": "time",
+      "label": "Time"
+    }
+  ]
+}

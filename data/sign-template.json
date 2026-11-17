@@ -1,0 +1,27 @@
+{
+  "id": "ysm-hello-001",
+  "language": "ysm",
+  "gloss": "HELLO",
+  "meaning": "",
+  "alternates": [],
+  "category": "greetings",
+  "region": "Yangon, Myanmar",
+  "notes": "",
+  "media": {
+    "type": "image",
+    "url": "",
+    "alt": ""
+  },
+  "source": {
+    "title": "",
+    "url": ""
+  },
+  "license": "",
+  "consent": {
+    "documented": false,
+    "recordId": ""
+  },
+  "reviewStatus": "needs-review",
+  "reviewer": "",
+  "created": "YYYY-MM-DD"
+}
