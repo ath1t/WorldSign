@@ -5,3 +5,5 @@
 @media(max-width:760px){.site-header{flex-wrap:wrap;gap:.8rem}.site-header nav{order:3;width:100%;overflow:auto;margin:0;gap:1rem}.header-tools{margin-left:auto}.search-panel{grid-template-columns:1fr}.principles{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.section{padding-top:3rem;padding-bottom:3rem}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
 :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+.source-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}.source-card{display:flex;flex-direction:column;align-items:flex-start;gap:.45rem;background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:1.1rem}.source-card h3{margin:0;font-size:1.05rem}.source-card p{margin:.2rem 0;color:var(--muted);font-size:.9rem}.source-card .source-size{color:var(--text);font-weight:800;font-size:1.05rem}.source-card a{margin-top:auto;color:var(--accent);font-weight:700;text-decoration:none}.source-card a:hover{text-decoration:underline}

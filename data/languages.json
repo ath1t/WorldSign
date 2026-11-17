@@ -6,7 +6,7 @@
       "region": "Yangon, Myanmar",
       "family": "Sign language",
       "priority": true,
-      "status": "Research required"
+      "status": "Research required; do not infer corpus entries from general Myanmar Sign Language data"
     },
     {
       "id": "mandalay-sl",
@@ -15,6 +15,14 @@
       "family": "Sign language",
       "priority": true,
       "status": "Research required"
+    },
+    {
+      "id": "msl",
+      "name": "Myanmar Sign Language (MSL4Emergency corpus label)",
+      "region": "Myanmar",
+      "family": "Sign language; regional variety unresolved",
+      "priority": true,
+      "status": "Source corpus label; regional classification requires Deaf-community validation"
     },
     {
       "id": "ase",
@@ -64,6 +72,48 @@
       "region": "Brazil",
       "family": "French Sign Language family",
       "status": "Directory entry"
+    },
+    {
+      "id": "dse",
+      "name": "Dutch Sign Language (NGT)",
+      "region": "Netherlands",
+      "family": "Sign language",
+      "status": "EASIER Wordnet source; community review required"
+    },
+    {
+      "id": "fsl",
+      "name": "French Sign Language (LSF)",
+      "region": "France",
+      "family": "Sign language",
+      "status": "EASIER Wordnet source; community review required"
+    },
+    {
+      "id": "gss",
+      "name": "Greek Sign Language (GSL)",
+      "region": "Greece",
+      "family": "Sign language",
+      "status": "EASIER Wordnet source; community review required"
+    },
+    {
+      "id": "sgg",
+      "name": "Swiss-German Sign Language (DSGS)",
+      "region": "Switzerland",
+      "family": "Sign language",
+      "status": "EASIER Wordnet source; community review required"
+    },
+    {
+      "id": "pso",
+      "name": "Polish Sign Language (PJM)",
+      "region": "Poland",
+      "family": "Sign language",
+      "status": "EASIER Wordnet source; community review required"
+    },
+    {
+      "id": "swl",
+      "name": "Swedish Sign Language (STS)",
+      "region": "Sweden",
+      "family": "Sign language",
+      "status": "EASIER Wordnet source; community review required"
     }
   ]
 }

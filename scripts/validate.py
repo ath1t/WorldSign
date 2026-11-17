@@ -20,3 +20,14 @@ print(f"Languages: {len(langs)} | Categories: {len(cats)} | Sign entries: {len(d
 if errors:
     print("\\n".join(errors));sys.exit(1)
 print("Validation passed.")
+
+# Validate the research source catalogue (metadata only; no media is copied).
+sources = json.loads((ROOT / "data/sources.json").read_text(encoding="utf-8"))["sources"]
+required_source_fields = {"id", "name", "languages", "region", "kind", "size", "license", "reuse", "status", "url", "evidence"}
+for source in sources:
+    missing = required_source_fields - source.keys()
+    if missing:
+        raise SystemExit(f"Source {source.get('id', '<unknown>')} missing fields: {sorted(missing)}")
+    if not source["url"].startswith("https://"):
+        raise SystemExit(f"Source {source['id']} has a non-HTTPS URL")
+print(f"Research sources: {len(sources)}")

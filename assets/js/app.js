@@ -11,20 +11,36 @@ function renderLanguages(){
  state.languages.forEach(l=>{const a=document.createElement("article");a.className="language-card"+(l.priority?" featured":"");a.innerHTML=`<strong></strong><span></span><small></small>`;a.querySelector("strong").textContent=l.name;a.querySelector("span").textContent=[l.region,l.family].filter(Boolean).join(" · ");a.querySelector("small").textContent=l.id==="ysm"?"Myanmar priority research":l.status||"Research directory";box.append(a)});
  const lf=$("#language-filter");state.languages.forEach(l=>{const o=document.createElement("option");o.value=l.id;o.textContent=l.name;lf.append(o)});
 }
+function renderSources(sources){
+ const box=$("#source-grid");if(!box)return;box.innerHTML="";
+ $("#source-count").textContent=`${sources.length} documented sources`;
+ sources.forEach(source=>{
+  const card=document.createElement("article");card.className="source-card";
+  const h=document.createElement("h3");h.textContent=source.name;
+  const size=document.createElement("p");size.className="source-size";size.textContent=source.size;
+  const kind=document.createElement("p");kind.textContent=source.kind;
+  const langs=document.createElement("p");langs.textContent=`Languages: ${source.languages.join(", ")}`;
+  const license=document.createElement("p");license.textContent=`Licence: ${source.license}`;
+  const status=document.createElement("span");status.className="status";status.textContent=source.status;
+  const reuse=document.createElement("p");reuse.textContent=source.reuse;
+  const link=document.createElement("a");link.href=source.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent="Open original source ↗";
+  card.append(h,size,kind,langs,license,status,reuse,link);box.append(card);
+ });
+}
 function renderFilters(){
  const cf=$("#category-filter");state.categories.forEach(c=>{const o=document.createElement("option");o.value=c.id;o.textContent=c.label;cf.append(o)});
 }
-function matches(s){const q=norm(state.query);const text=norm([s.id,s.gloss,s.meaning,s.notes,...(s.alternates||[])].join(" "));return(!q||text.includes(q))&&(!state.language||s.language===state.language)&&(!state.category||s.category===state.category)}
+function matches(s){const q=norm(state.query);const text=norm([s.id,s.gloss,s.meaning,s.transcription,s.notes,...(s.alternates||[])].join(" "));return(!q||text.includes(q))&&(!state.language||s.language===state.language)&&(!state.category||s.category===state.category)}
 function renderSigns(){
  const results=state.signs.filter(matches);$("#sign-grid").innerHTML="";$("#result-count").textContent=`${results.length} entries`;
  $("#empty-state").hidden=results.length>0;
- results.forEach(s=>{const card=document.createElement("article");card.className="sign-card";const h=document.createElement("h3");h.textContent=s.gloss||s.id;const p=document.createElement("p");p.textContent=s.meaning||"Meaning pending community review.";const meta=document.createElement("span");meta.className="status";meta.textContent=s.reviewStatus||"needs-review";const btn=document.createElement("button");btn.className="button secondary";btn.textContent="Details";btn.addEventListener("click",()=>showDetails(s));card.append(h,p,meta,document.createElement("br"),btn);$("#sign-grid").append(card)});
+ results.forEach(s=>{const card=document.createElement("article");card.className="sign-card";const h=document.createElement("h3");h.textContent=s.gloss||s.id;const p=document.createElement("p");p.textContent=s.meaning||"Meaning pending community review.";const trans=document.createElement("p");trans.className="sign-transcription";trans.textContent=s.transcription?`Sign transcription: ${s.transcription}`:"Visual sign media not available.";const meta=document.createElement("span");meta.className="status";meta.textContent=s.reviewStatus||"needs-review";const btn=document.createElement("button");btn.className="button secondary";btn.textContent="Details";btn.addEventListener("click",()=>showDetails(s));card.append(h,p,trans,meta,document.createElement("br"),btn);$("#sign-grid").append(card)});
 }
-function showDetails(s){const box=$("#dialog-content");box.innerHTML="";const h=document.createElement("h2");h.id="dialog-title";h.textContent=s.gloss||s.id;const p=document.createElement("p");p.textContent=s.meaning||"Meaning pending community review.";const d=document.createElement("p");d.textContent=`Language: ${s.language} · Category: ${s.category||"Uncategorized"} · Status: ${s.reviewStatus||"needs-review"}`;box.append(h,p,d);if(s.media?.url){const link=document.createElement("a");link.href=s.media.url;link.textContent="Open approved media";link.rel="noopener noreferrer";box.append(link)}$("#sign-dialog").showModal()}
+function showDetails(s){const box=$("#dialog-content");box.innerHTML="";const h=document.createElement("h2");h.id="dialog-title";h.textContent=s.gloss||s.id;const p=document.createElement("p");p.textContent=s.meaning||"Meaning pending community review.";const d=document.createElement("p");d.textContent=`Language: ${s.language} · Category: ${s.category||"Uncategorized"} · Status: ${s.reviewStatus||"needs-review"}`;box.append(h,p,d);if(s.transcription){const t=document.createElement("p");t.textContent=`Corpus sign-language transcription: ${s.transcription}`;box.append(t)}if(s.notes){const n=document.createElement("p");n.textContent=s.notes;box.append(n)}if(s.source?.url){const src=document.createElement("a");src.href=s.source.url;src.target="_blank";src.rel="noopener noreferrer";src.textContent="View original corpus and attribution";box.append(src)}if(s.license){const lic=document.createElement("p");lic.textContent=`Source licence: ${s.license}`;box.append(lic)}if(s.media?.url){const link=document.createElement("a");link.href=s.media.url;link.textContent="Open approved media";link.rel="noopener noreferrer";box.append(link)}$("#sign-dialog").showModal()}
 async function init(){
  $("#year").textContent=new Date().getFullYear();
- const [l,c,a]=await Promise.all(["data/languages.json","data/categories.json","data/signs/index.json"].map(u=>fetch(u).then(r=>{if(!r.ok)throw Error(u);return r.json()})));
- state.languages=l.languages;state.categories=c.categories;state.signs=a.signs;
+ const [l,c,a,src]=await Promise.all(["data/languages.json","data/categories.json","data/signs/index.json","data/sources.json"].map(u=>fetch(u).then(r=>{if(!r.ok)throw Error(u);return r.json()})));
+ state.languages=l.languages;state.categories=c.categories;state.signs=a.signs;renderSources(src.sources);
  renderLanguages();renderFilters();renderSigns();
  $("#search-input").addEventListener("input",e=>{state.query=e.target.value;renderSigns()});
  $("#language-filter").addEventListener("change",e=>{state.language=e.target.value;renderSigns()});

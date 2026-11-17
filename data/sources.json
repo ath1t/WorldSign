@@ -1,0 +1,92 @@
+{
+  "sources": [
+    {
+      "id": "msl4emergency",
+      "name": "MSL4Emergency — Myanmar Sign Language Corpus",
+      "languages": [
+        "Myanmar Sign Language (the source does not specify a single regional variety)"
+      ],
+      "region": "Myanmar",
+      "kind": "Video corpus + Myanmar text and sign-language transcription",
+      "size": "558 videos",
+      "license": "CC BY-NC-SA 4.0",
+      "reuse": "Non-commercial use only; attribution and ShareAlike terms apply. Only text annotations and dictionary text are imported; no video, image, ELAN or PFSX media is copied.",
+      "status": "External research dataset",
+      "url": "https://github.com/ye-kyaw-thu/MSL4Emergency",
+      "evidence": "The repository describes 558 Myanmar Sign Language emergency-domain videos, Myanmar text and sign-language transcriptions, and a CC BY-NC-SA 4.0 licence. Regional variety is not asserted by WorldSign."
+    },
+    {
+      "id": "asian-signbank",
+      "name": "Asian SignBank",
+      "languages": [
+        "Yangon Sign Language",
+        "Japanese Sign Language",
+        "Hong Kong Sign Language",
+        "Sri Lankan Sign Language",
+        "Jakarta Sign Language",
+        "Yogyakarta Sign Language",
+        "Ho Chi Minh City Sign Language"
+      ],
+      "region": "Asia-Pacific",
+      "kind": "Lexical database with sign videos and linguistic features",
+      "size": "4,750 signs (dataset compendium listing)",
+      "license": "Separate Asian SignBank terms; bulk reuse not established",
+      "reuse": "Research and discovery reference only. Do not copy or bulk redistribute entries, images or videos without written permission from the rights holder.",
+      "status": "External reference — permission required",
+      "url": "https://www.cslds.org/asb/welcome.jsp",
+      "evidence": "The dataset compendium lists 4,750 signs and Yangon Sign Language; the provider describes searchable lexical data and media."
+    },
+    {
+      "id": "asl-lex",
+      "name": "ASL-LEX 2.0",
+      "languages": [
+        "American Sign Language"
+      ],
+      "region": "United States",
+      "kind": "Lexical and phonological database",
+      "size": "2,723 signs",
+      "license": "CC BY 4.0 (database only; reference videos excluded)",
+      "reuse": "Attribution required. Official ASL-LEX page licenses database/visualization CC BY 4.0; reference videos remain copyrighted and are not copied.",
+      "status": "Text-only importer configured; verify imported release",
+      "url": "https://asl-lex.org/download.html",
+      "evidence": "Official download page specifies CC BY 4.0 for database and excludes videos."
+    },
+    {
+      "id": "bsl-signbank",
+      "name": "BSL SignBank Dictionary",
+      "languages": [
+        "British Sign Language"
+      ],
+      "region": "United Kingdom",
+      "kind": "Online sign dictionary",
+      "size": "Public dictionary; no bulk count asserted",
+      "license": "Non-commercial public access; no bulk redistribution",
+      "reuse": "The provider explicitly prohibits scraping and bulk redistribution. Link to the provider’s individual sign pages instead of copying its data or videos.",
+      "status": "External reference — no copying",
+      "url": "https://bslsignbank.ucl.ac.uk/about/dictionary/",
+      "evidence": "The provider’s permissions page states non-commercial public use and prohibits scraping and bulk redistribution."
+    },
+    {
+      "id": "easier-wordnet",
+      "name": "EASIER Multilingual Sign Language Wordnet",
+      "languages": [
+        "BSL",
+        "NGT",
+        "LSF",
+        "DGS",
+        "GSL",
+        "DSGS",
+        "PJM",
+        "STS"
+      ],
+      "region": "Europe",
+      "kind": "Lexical sign metadata and accepted synset links",
+      "size": "Multiple language tables; exact imported count reported by importer",
+      "license": "CC BY 4.0",
+      "reuse": "Attribution required. This import excludes video/media files and preserves synset confidence.",
+      "status": "Text-only importer configured; run scripts/import_public_datasets.py to refresh",
+      "url": "https://www.fdr.uni-hamburg.de/record/14190",
+      "evidence": "Open-access record lists CSV and tabular sign data under CC BY 4.0."
+    }
+  ]
+}

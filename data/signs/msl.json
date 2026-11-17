@@ -1,0 +1,485 @@
+{
+  "language": "msl",
+  "signs": [
+    {
+      "id": "msl-msl4e-001-fire-hook",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "FIRE HOOK",
+      "meaning": "မီးချိတ်",
+      "transcription": "မီးချိတ်",
+      "alternates": [
+        "မီးချိတ်"
+      ],
+      "category": "emergency",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-002-sandbag",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "SANDBAG",
+      "meaning": "သဲ အိတ်",
+      "transcription": "အိတ် ထဲ သဲ",
+      "alternates": [
+        "သဲ အိတ်"
+      ],
+      "category": "emergency",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-003-fire-extinguisher",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "FIRE EXTINGUISHER",
+      "meaning": "မီးသတ်ဆေးဘူး",
+      "transcription": "အနီ ဘူး ဖြန်း",
+      "alternates": [
+        "မီးသတ်ဆေးဘူး"
+      ],
+      "category": "emergency",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-004-flammable-materials",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "FLAMMABLE MATERIALS",
+      "meaning": "မီးလောင် လွယ် သော ပစ္စည်း များ",
+      "transcription": "မီးလောင် တစ်ခါတည်း ဓာတ်ဆီ စက္ကူ စွန့်ပစ် အမျိုးမျိုး",
+      "alternates": [
+        "မီးလောင် လွယ် သော ပစ္စည်း များ"
+      ],
+      "category": "safety",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-005-fuel",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "FUEL",
+      "meaning": "လောင်စာဆီ",
+      "transcription": "ဓာတ်ဆီ 9 2 9 5 အောက်တိန်း အမျိုးမျိုး",
+      "alternates": [
+        "လောင်စာဆီ"
+      ],
+      "category": "safety",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-006-light-switch",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "LIGHT SWITCH",
+      "meaning": "မီးခလုပ်",
+      "transcription": "ခလုပ် နှိပ်",
+      "alternates": [
+        "မီးခလုပ်"
+      ],
+      "category": "daily-life",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-007-smoke",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "SMOKE",
+      "meaning": "မီးခိုး",
+      "transcription": "မီး အခိုးအငွေ့ အမဲ",
+      "alternates": [
+        "မီးခိုး"
+      ],
+      "category": "emergency",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-008-oxygen",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "OXYGEN",
+      "meaning": "အောက်စီဂျင်",
+      "transcription": "အောက်ဆီဂျင် o 2",
+      "alternates": [
+        "အောက်စီဂျင်"
+      ],
+      "category": "health",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-009-exit",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "EXIT",
+      "meaning": "ထွက်ပေါက်",
+      "transcription": "ဆိုင်းဘုတ် အဲဒီက ပြေး တံခါးပေါက်",
+      "alternates": [
+        "ထွက်ပေါက်"
+      ],
+      "category": "safety",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-010-fire-engine",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "FIRE ENGINE",
+      "meaning": "မီးသတ်ကား",
+      "transcription": "ကား အရေးပေါ် မီးသတ်",
+      "alternates": [
+        "မီးသတ်ကား"
+      ],
+      "category": "emergency",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-011-rescue-and-emergency-recovery",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "RESCUE AND EMERGENCY RECOVERY",
+      "meaning": "ကယ်ဆယ်ရေး နှင့် အရေးပေါ် ပြန်လည် ထူထောင်ရေး",
+      "transcription": "လူ ကယ်ဆယ် ယခု မြန်မြန် ပြင်ဆင် ထူထောင်",
+      "alternates": [
+        "ကယ်ဆယ်ရေး နှင့် အရေးပေါ် ပြန်လည် ထူထောင်ရေး"
+      ],
+      "category": "emergency",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-012-special-attention",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "SPECIAL ATTENTION",
+      "meaning": "အထူး သတိပြု",
+      "transcription": "ဒုက္ခ ဂရုစိုက်",
+      "alternates": [
+        "အထူး သတိပြု"
+      ],
+      "category": "safety",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-013-do-not-jump",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "DO NOT JUMP",
+      "meaning": "ခုန် မ ချ နဲ့",
+      "transcription": "ခုန်ချ မလုပ်နဲ့",
+      "alternates": [
+        "ခုန် မ ချ နဲ့"
+      ],
+      "category": "safety",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-014-earthquake-safety",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "EARTHQUAKE SAFETY",
+      "meaning": "ငလျင် လှုပ် နေ ရင် အဆာက်အအုံ ထဲ သို့ ပြေး မ ဝင် ပါ နဲ့",
+      "transcription": "ငလျှင်လှုပ် အိမ် ပြေးဝင် မလုပ်ရ မလုပ်နဲ့",
+      "alternates": [
+        "ငလျင် လှုပ် နေ ရင် အဆာက်အအုံ ထဲ သို့ ပြေး မ ဝင် ပါ နဲ့"
+      ],
+      "category": "disaster",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    },
+    {
+      "id": "msl-msl4e-015-bleeding",
+      "language": "msl",
+      "entryType": "phrase",
+      "gloss": "BLEEDING",
+      "meaning": "သွေး တွေ တော်တော် ထွက် နေ တယ်",
+      "transcription": "သွေး ထွက် အများကြီး",
+      "alternates": [
+        "သွေး တွေ တော်တော် ထွက် နေ တယ်"
+      ],
+      "category": "health",
+      "region": "Myanmar (source corpus does not establish a specific regional variety)",
+      "notes": "Phrase-level example published in the MSL4Emergency corpus README. The corpus does not establish this entry as specifically Yangon or Mandalay Sign Language. Not an isolated lexical sign; no individual media mapping is supplied.",
+      "media": {
+        "type": "none",
+        "url": "",
+        "alt": ""
+      },
+      "source": {
+        "title": "MSL4Emergency — Myanmar Sign Language Corpus",
+        "url": "https://github.com/ye-kyaw-thu/MSL4Emergency"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "attribution": "Contributors to MSL4Emergency; see original repository README.",
+      "consent": {
+        "documented": false,
+        "recordId": ""
+      },
+      "reviewStatus": "source-documented-needs-community-review",
+      "reviewer": "",
+      "created": "2026-11-17"
+    }
+  ]
+}
