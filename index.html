@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10131c">
+  <meta name="description" content="WorldSign — an open, community-reviewed directory for sign languages around the world.">
+  <title>WorldSign — Sign Language Dictionary</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="./" aria-label="WorldSign home"><span class="brand-mark">W</span><span>WorldSign</span></a>
+  <nav aria-label="Main navigation">
+    <a href="#dictionary" data-i18n="nav_dictionary">Dictionary</a>
+    <a href="learn/" data-i18n="nav_learn">Learn</a>
+    <a href="contribute/" data-i18n="nav_contribute">Contribute</a>
+    <a href="#about" data-i18n="nav_about">About</a>
+  </nav>
+  <div class="header-tools">
+    <label class="sr-only" for="language-ui">Interface language</label>
+    <select id="language-ui" aria-label="Interface language"><option value="en">English</option><option value="my">မြန်မာ</option></select>
+    <button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle color theme">◐</button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="eyebrow" data-i18n="hero_eyebrow">A community-led open project</div>
+    <h1 data-i18n="hero_title">Every sign has a story.</h1>
+    <p data-i18n="hero_desc">Explore sign languages as distinct, living languages — documented with respect, consent and community review.</p>
+    <a class="primary-button" href="#dictionary" data-i18n="explore_dictionary">Explore dictionary</a>
+    <div class="hero-note"><strong>Myanmar Sign Language</strong><span data-i18n="msl_note">is included as a priority research area.</span></div>
+  </section>
+
+  <section class="section" id="dictionary">
+    <div class="section-heading"><div><p class="eyebrow" data-i18n="directory_eyebrow">Explore</p><h2 data-i18n="directory_title">Sign dictionary</h2></div><span id="result-count" class="muted" aria-live="polite">0 entries</span></div>
+    <div class="search-panel">
+      <label class="sr-only" for="search-input" data-i18n="search_label">Search signs</label>
+      <input id="search-input" type="search" placeholder="Search a word, meaning or sign ID…" autocomplete="off">
+      <label class="sr-only" for="language-filter">Filter by sign language</label>
+      <select id="language-filter"><option value="">All languages</option></select>
+      <label class="sr-only" for="category-filter">Filter by category</label>
+      <select id="category-filter"><option value="">All categories</option></select>
+    </div>
+    <div id="language-list" class="language-grid" aria-label="Sign language directory"></div>
+    <div id="sign-grid" class="sign-grid" aria-live="polite"></div>
+    <p id="empty-state" class="empty-state">No published signs yet. Help us build this dictionary through community contributions.</p>
+  </section>
+
+  <section class="section feature-band" id="about">
+    <div><p class="eyebrow">Our principles</p><h2 data-i18n="principles_title">Language first. Community always.</h2></div>
+    <div class="principles">
+      <article><span>01</span><h3>Not universal</h3><p>Sign languages have their own grammar, vocabulary and regional variation. They are not interchangeable.</p></article>
+      <article><span>02</span><h3>Consent matters</h3><p>Images and videos require documented permission and clear reuse terms.</p></article>
+      <article><span>03</span><h3>Reviewed by people</h3><p>Entries remain unpublished until qualified community reviewers approve them.</p></article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><span>© <span id="year"></span> WorldSign</span><span>Open-source code · Community-governed language data</span><a href="https://github.com/" rel="noreferrer">GitHub</a></footer>
+
+<dialog id="sign-dialog" class="sign-dialog" aria-labelledby="dialog-title">
+  <form method="dialog"><button class="dialog-close" aria-label="Close sign details">×</button></form>
+  <div id="dialog-content"></div>
+</dialog>
+</body>
+</html>
